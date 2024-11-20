@@ -1,0 +1,11 @@
+# .gitignore
+venv/
+tests/
+examples/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
