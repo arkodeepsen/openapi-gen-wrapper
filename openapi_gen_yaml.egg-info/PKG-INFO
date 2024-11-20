@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: openapi-gen-yaml
+Version: 0.1.0
+Summary: An OpenAPI generator for Flask apps.
+Home-page: https://github.com/arkodeepsen/openapi-gen
+Author: Arkodeep Sen
+Author-email: arkodeepsen72@gmail.com.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: click
+Requires-Dist: pyyaml
