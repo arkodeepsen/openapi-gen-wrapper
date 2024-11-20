@@ -13,7 +13,7 @@ setup(
     author="Arkodeep Sen",
     author_email="arkodeepsen72@gmail.com.com",
     description="A Python tool for generating OpenAPI specs",  # Short description
-    long_description=open('README.md').read(),  # Detailed description from README file
+    long_description=open('README.md').read(), # Detailed description from README file
     long_description_content_type="text/markdown",  # The format of your README
     url="https://github.com/arkodeepsen/openapi-gen",
     classifiers=[
