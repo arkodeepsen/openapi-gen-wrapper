@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: API Documentation
+  version: 1.0.0
+paths:
+  /hello:
+    get:
+      parameters: []
+      responses:
+        '200':
+          description: Retrieves details for a specific user.
+  /goodbye:
+    post:
+      parameters: []
+      responses:
+        '200':
+          description: Retrieves details for a specific user.
+  /users/<user_id>:
+    get:
+      parameters:
+      - name: user_id
+        in: path
+        required: true
+        type: string
+      responses:
+        '200':
+          description: Retrieves details for a specific user.
